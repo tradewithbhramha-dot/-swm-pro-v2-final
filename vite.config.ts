@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/",  // <--- Yahan se dot (.) hata diya hai
+  // Base ko "/" kar diya hai taaki routing sahi chale
+  base: "/",
   plugins: [react()],
   resolve: {
     alias: {
